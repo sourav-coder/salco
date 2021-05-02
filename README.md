@@ -6,6 +6,25 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Component Tree
+
+App
+    Navbar 
+    Carousel
+    About
+    TeamCarousel
+        Teamdesc
+    Business
+        Modal
+    Investors
+        Modal
+    Indivisual
+        Modal
+    Footer
+    
+
+    
+
 ### `npm start`
 
 Runs the app in the development mode.\
