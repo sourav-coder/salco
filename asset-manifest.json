@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/saltco/static/css/main.2fdca3f0.chunk.css",
-    "main.js": "/saltco/static/js/main.b53e9622.chunk.js",
-    "main.js.map": "/saltco/static/js/main.b53e9622.chunk.js.map",
+    "main.js": "/saltco/static/js/main.a27a8ac0.chunk.js",
+    "main.js.map": "/saltco/static/js/main.a27a8ac0.chunk.js.map",
     "runtime-main.js": "/saltco/static/js/runtime-main.b000d505.js",
     "runtime-main.js.map": "/saltco/static/js/runtime-main.b000d505.js.map",
     "static/js/2.1988b077.chunk.js": "/saltco/static/js/2.1988b077.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.b000d505.js",
     "static/js/2.1988b077.chunk.js",
     "static/css/main.2fdca3f0.chunk.css",
-    "static/js/main.b53e9622.chunk.js"
+    "static/js/main.a27a8ac0.chunk.js"
   ]
 }
