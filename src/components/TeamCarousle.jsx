@@ -7,7 +7,7 @@ import img2 from "../images/profile3 (2).jpg";
 export default function TeamCarousel() {
   return (
 
-    <div id={"teams"}>
+    <div id="teams">
     <div
       id="carouselExampleFade"
       class="carousel slide carousel-fade  carousel-dark TeamCarousel"

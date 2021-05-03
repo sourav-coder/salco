@@ -609,6 +609,10 @@ body {
   outline: none;
 }
 
+.intern a {
+  text-decoration: none;
+  color: #fff;
+}
 .intern .button:active {
   transform: scale(0.97);
 }
@@ -634,25 +638,135 @@ body {
   font-family: "Oxygen", sans-serif;
 }
 
+@media (min-width: 320px) and (max-width: 600px) {
+  .intern p {
+    font-size: 15px;
+  }
+}
 /* ------------------------------- Application ---------------------  */
-.Application h2 ,.Application .card-title {
+
+.Application h1 {
+  color: #f80759;
+  text-transform: uppercase;
+  font-family: "Monserrat", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 21px;
+  padding: 3% 12%;
+  font-weight: 600;
+}
+.Application .card-title {
+  color: #f80759;
+  text-transform: uppercase;
+  font-family: "Monserrat", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.Application .posts {
+  padding: 3% 12%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+}
+.Application a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Application .card {
+  width: 418px;
+  text-align: left;
+  padding: 10px;
+  margin: 10px 0 10px 10px;
+}
+.Application p {
+  margin-bottom: 25px;
+  color: gray;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Application .card .card-text {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Application .button {
+  padding: 7px 20px;
+  background: linear-gradient(to right, #bc4e9c, #f80759, #c6052e);
+  color: #fff;
+  border-radius: 21px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  box-shadow: 2px 3px 20px -7px #f80759;
+  transition: all ease-in-out;
+}
+.Application .button:active {
+  transform: scale(0.98);
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .Application .posts {
+    flex-wrap: wrap;
+  }
+  .Application .card {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+/* ------------------------------- Application Submit -------------------  */
+
+.ApplicationSubmit {
+  padding: 3% 12%;
+}
+.ApplicationSubmit h2 {
+  color: #f80759;
+  text-transform: uppercase;
+  font-family: "Monserrat", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+}
+.ApplicationSubmit h1 {
   color: #f80759;
   text-transform: uppercase;
   font-family: "Monserrat", sans-serif;
   letter-spacing: 1.5px;
   font-size: 21px;
   font-weight: 600;
+  text-align: center;
+  padding: 44px 14px;
+}
+.ApplicationSubmit .button a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.Application .posts {
-  padding: 3% 12%;
-}
-
-.Application .card {
-  width: 18rem;
+.ApplicationSubmit ul {
+  list-style-type: none;
   text-align: left;
-  padding: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 5%;
 }
-.Application .card .card-text{
-  font-family: "Ubuntu",sans-serif;
+.ApplicationSubmit ul li:before {
+  content: "\261E";
+  margin-left: -20px;
+  margin-right: 10px;
+}
+.ApplicationSubmit .button {
+  padding: 13px 30px;
+  background: linear-gradient(to right, #bc4e9c, #f80759, #c6052e);
+  color: #fff;
+  font-family: "Monserrat", sans-serif;
+  font-size: 14px;
+  box-shadow: 2px 3px 20px -7px #f80759;
+  transition: all ease-in-out;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .ApplicationSubmit h1 {
+    line-height: 2;
+  }
 }

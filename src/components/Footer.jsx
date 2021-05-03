@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom" 
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -23,16 +23,16 @@ export default function Footer() {
             </span>
           </div>
           <div class="socials">
-            <Link >
+            <Link>
               <i class="fab fa-facebook"></i>
             </Link>
-            <Link >
+            <Link>
               <i class="fab fa-instagram"></i>
             </Link>
-            <Link >
+            <Link>
               <i class="fab fa-twitter"></i>
             </Link>
-            <Link >
+            <Link>
               <i class="fab fa-youtube"></i>
             </Link>
           </div>
@@ -41,42 +41,51 @@ export default function Footer() {
         <div class="footer-section links">
           <h2>Quick Links</h2>
           <br />
-            <ul>
-              <Link>
-                <li>Events</li>
-              </Link>
-              <Link>
-                <li>Team</li>
-              </Link>
-            </ul>
-          </div>
-
-          <div class="footer-section contact-form">
-            <h2>Contact us</h2>
-            <br />
-              <form action="index.html" method="post">
-                <input
-                  type="email"
-                  name="email"
-                  class="text-input contact-input"
-                  placeholder="Your email address..."
-                ></input>
-                <textarea
-                  rows="4"
-                  name="message"
-                  class="text-input contact-input"
-                  placeholder="Your message..."
-                ></textarea>
-                <button type="submit" className="button">
-                    Send
-                </button>
-              </form>
-          </div>
-          </div>
-
-          <div class="footer-bottom">
-            &copy; codingpoets.com | Designed by Awa Melvine
-          </div>
+          <ul>
+            <Link to="/#about" target="__blank">
+              <li>About</li>
+            </Link>
+            <Link to="/#teams" target="__blank">
+              <li>Teams</li>
+            </Link>
+            <Link to="/#Business" target="__blank">
+              <li>Business</li>
+            </Link>
+            <Link to="/#Indivisual" target="__blank">
+              <li>Indivisual</li>
+            </Link>
+            <Link to="/#Investors" target="__blank">
+              <li>Investors</li>
+            </Link>
+          </ul>
         </div>
+
+        <div class="footer-section contact-form">
+          <h2>Contact us</h2>
+          <br />
+          <form action="index.html" method="post">
+            <input
+              type="email"
+              name="email"
+              class="text-input contact-input"
+              placeholder="Your email address..."
+            ></input>
+            <textarea
+              rows="4"
+              name="message"
+              class="text-input contact-input"
+              placeholder="Your message..."
+            ></textarea>
+            <button type="submit" className="button">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; codingpoets.com | Designed by Awa Melvine
+      </div>
+    </div>
   );
 }

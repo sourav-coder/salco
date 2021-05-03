@@ -9,6 +9,7 @@ import Indivisual from "./Indivisual";
 import Intern from "./Intern";
 import Footer from "./Footer";
 import Application from "./Application"
+import ApplicationSubmit from "./ApplicationSubmit"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./style.css";
 
@@ -16,20 +17,22 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/">
-          <Application />
-          {/* <Navbar /> */}
-          {/* <Carousel /> */}
-          {/* <About /> */}
-          {/* <TeamCarousel /> */}
-          {/* <Business /> */}
-          {/* <Investors /> */}
-          {/* <Indivisual /> */}
-          {/* <Intern /> */}
-          {/* <Footer /> */}
-
+        <Route exact path="/">
+          <Navbar />
+          <Carousel />
+          <About />
+          <TeamCarousel />
+          <Business />
+          <Investors />
+          <Indivisual />
+          <Intern />
+          <Footer />
         </Route>
 
+        <Route path="/application"><Application /></Route>
+        <Route path="/submit" >
+          <ApplicationSubmit />
+        </Route>
       </Switch>
     </Router>
   );

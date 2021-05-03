@@ -62,21 +62,21 @@ export default function Navbar() {
       >
         <List>
           <ListItem Link>
-            <Link to="/">About</Link>
+          <Link to="#about" target="_parent">About</Link>
           </ListItem>
 
           <ListItem Link>
-            <Link to="/">Teams</Link>
+          <Link to="#teams" target="_parent">Teams</Link>
           </ListItem>
 
           <ListItem Link>
-            <Link to="/">Business</Link>
+          <Link to="#Business"target="_parent" >Businesses</Link>
           </ListItem>
           <ListItem Link>
-            <Link to="/">Indivisual</Link>
+          <Link to="#Indivisual" target="_parent">Indivisuals</Link>
           </ListItem>
           <ListItem Link>
-            <Link to="/">Investors</Link>
+          <Link to="#Investors" target="_parent">Investors</Link>
           </ListItem>
 
           <ListItem Button>
