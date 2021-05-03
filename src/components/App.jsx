@@ -10,12 +10,13 @@ import Intern from "./Intern";
 import Footer from "./Footer";
 import Application from "./Application"
 import ApplicationSubmit from "./ApplicationSubmit"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import "./style.css";
 
+// basename={process.env.PUBLIC_URL}
 export default function App() {
   return (
-    <Router>
+    <Router >
       <Switch>
         <Route exact path="/">
           <Navbar />
@@ -29,7 +30,7 @@ export default function App() {
           <Footer />
         </Route>
 
-        <Route path="/application"><Application /></Route>
+        <Route  path="/application" component={Application}></Route>
         <Route path="/submit" >
           <ApplicationSubmit />
         </Route>

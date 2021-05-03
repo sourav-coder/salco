@@ -28,8 +28,8 @@ export default function Navbar() {
     return (
       <div className="links">
         <div className="innerLinks">
-          <Link to="#about" target="_parent">About</Link>
-          <Link to="#teams" target="_parent">Teams</Link>
+          <Link to="/#about" target="_parent">About</Link>
+          <Link to="/#teams" target="_parent">Teams</Link>
           <Link to="#Business"target="_parent" >Businesses</Link>
           <Link to="#Indivisual" target="_parent">Indivisuals</Link>
           <Link to="#Investors" target="_parent">Investors</Link>
