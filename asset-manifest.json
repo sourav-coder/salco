@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/saltco/static/css/main.2fdca3f0.chunk.css",
-    "main.js": "/saltco/static/js/main.085ed2f9.chunk.js",
-    "main.js.map": "/saltco/static/js/main.085ed2f9.chunk.js.map",
+    "main.css": "/saltco/static/css/main.a6883512.chunk.css",
+    "main.js": "/saltco/static/js/main.4af602b1.chunk.js",
+    "main.js.map": "/saltco/static/js/main.4af602b1.chunk.js.map",
     "runtime-main.js": "/saltco/static/js/runtime-main.b000d505.js",
     "runtime-main.js.map": "/saltco/static/js/runtime-main.b000d505.js.map",
     "static/js/2.87e509f8.chunk.js": "/saltco/static/js/2.87e509f8.chunk.js",
     "static/js/2.87e509f8.chunk.js.map": "/saltco/static/js/2.87e509f8.chunk.js.map",
     "index.html": "/saltco/index.html",
-    "static/css/main.2fdca3f0.chunk.css.map": "/saltco/static/css/main.2fdca3f0.chunk.css.map",
+    "static/css/main.a6883512.chunk.css.map": "/saltco/static/css/main.a6883512.chunk.css.map",
     "static/js/2.87e509f8.chunk.js.LICENSE.txt": "/saltco/static/js/2.87e509f8.chunk.js.LICENSE.txt",
     "static/media/4563775.5cd4e279.jpg": "/saltco/static/media/4563775.5cd4e279.jpg",
     "static/media/6143.8c253b00.jpg": "/saltco/static/media/6143.8c253b00.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.b000d505.js",
     "static/js/2.87e509f8.chunk.js",
-    "static/css/main.2fdca3f0.chunk.css",
-    "static/js/main.085ed2f9.chunk.js"
+    "static/css/main.a6883512.chunk.css",
+    "static/js/main.4af602b1.chunk.js"
   ]
 }
